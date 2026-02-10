@@ -31,5 +31,5 @@ export class AuthController {
   remove(@Param('id') id: string) {
     return this.authService.remove(+id);
   }
-  //teste
+  //teste 2
 }
